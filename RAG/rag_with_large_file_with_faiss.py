@@ -2,8 +2,9 @@ import numpy as np
 import faiss
 import requests
 import sys 
+import os
 
-openrouter_api_key = "YOUR_API_KEY"
+openrouter_api_key = os.environ["API_KEY"]
 
 headers = {
     "Authorization": f"Bearer {openrouter_api_key}",

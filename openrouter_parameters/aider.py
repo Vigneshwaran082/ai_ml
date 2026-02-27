@@ -1,7 +1,8 @@
 import requests
 import json
+import os
 
-__open_router_api_key = "YOUR_API_KEY"
+__open_router_api_key = os.environ["API_KEY"]
 url = "https://openrouter.ai/api/v1/chat/completions"
 
 def ask_llm(model = "anthropic/claude-3.5-sonnet",role = "user",temperature=1.0 ,top_p=1.0,frequency_penalty=0.0,repetition_penalty=1.0,max_tokens=200.0):

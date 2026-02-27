@@ -4,8 +4,9 @@ import requests
 #scikit-learn build on Numpy[Math library for Matrics/array calculation] which has ready made ML Libraries
 from sklearn.metrics.pairwise import cosine_similarity
 import faiss
+import os
 
-openrouter_api_key ="YOUR_API_KEY"
+openrouter_api_key = os.environ["API_KEY"]
 
 headers = {
     "Authorization": f"Bearer {openrouter_api_key}",
