@@ -1,0 +1,7 @@
+The Java Virtual Machine (JVM) manages memory using an automatic system called the Garbage Collector.
+Project Loom introduced Virtual Threads to Java to make high-throughput, concurrent applications easier to write.
+The GraalVM compiler allows Java applications to be compiled into Native Images for faster startup times.
+Java uses the invokedynamic instruction, introduced in Java 7, to support dynamic languages on the JVM.
+The Spring Framework uses Dependency Injection to manage object lifecycles and reduce tight coupling.
+Maven and Gradle are the most common build automation tools used to manage Java project dependencies.
+The Optional class was added in Java 8 to help developers avoid NullPointerExceptions.
