@@ -5,7 +5,7 @@ import requests
 from sklearn.metrics.pairwise import cosine_similarity
 import faiss
 
-openrouter_api_key = "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"
+openrouter_api_key ="YOUR_API_KEY"
 
 headers = {
     "Authorization": f"Bearer {openrouter_api_key}",
